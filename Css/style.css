@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header, section h2, section h3 {
+    font-family: 'Lobster', cursive;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(239, 163, 176), rgb(244, 169, 211));
+    padding: 18px 0;
+    color: #fff;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+header nav li a:hover{
+    color: #ff5ce4;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.Foto-Salão{
+    width: 50%;
+    margin-right: 32px;
+    height: 566px;
+}
+
+.texto-principal {
+    width: 100%;
+}
+
+section h2, section p {
+    margin-bottom: 8px;
+    word-break: break-all;
+}
+
+section h2, section h3 {
+    color: #ff4be1
+}
+
+section p {
+    color: #8c0072;
+}
+
+.lista-imagens{
+    display: flex;
+    gap: 15px;
+}
+
+.lista-imagens {
+    padding-bottom: 5px;
+}
+
+.lista-imagens img {
+    width: 186px;
+    height: 180px;
+}
+
+#Contato  h2 {
+    font-size: 26px;
+}
+
+#Contato h3 {
+    margin-bottom: 6px;
+    font-size: 24px;
+}
+
+#Contato .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link img {
+    height: 24px;
+    margin-left: 50px;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #ff4be1;
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+form button:hover {
+    background-color: #ea67d4;
+}
+
+form input,
+form textarea {
+    font-family: 'Borel', cursive;
+    color: #38565B;
+}
+
+input:focus, textarea:focus {
+    outline-color: #38565B;
+}
+
+
+footer {
+    background-image: linear-gradient(to right, rgb(239, 163, 176), rgb(244, 169, 211));
+    padding: 18px 0;
+    color: #fff;
+    text-align: center;
+}
